@@ -11,8 +11,9 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: white;
     font-size: 1em;
+    font-family: 'Futura', "Trebuchet MS", Arial, sans-serif;
     line-height: 1.4;
     background: url(https://media.giphy.com/media/gUlm9edDooQFy/giphy.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
