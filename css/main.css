@@ -22,6 +22,10 @@ html {
     background-size: cover;
 }
 
+table {
+    align-content: center;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
