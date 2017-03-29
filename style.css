@@ -38,6 +38,11 @@ a:hover {
 a:visited {
     border-bottom: 0px;
 }
+
+a:active {
+    border-bottom: 0px;
+}
+
 .select {
 }
 
