@@ -35,12 +35,8 @@ a:hover {
 	/*color:blue;*/
 }
 
-a:visited {
-    border-bottom: 0px;
-}
-
-a:active {
-    border-bottom: 0px;
+a .totop:active {
+    border-bottom: none;
 }
 
 .select {
