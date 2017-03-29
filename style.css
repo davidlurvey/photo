@@ -35,6 +35,9 @@ a:hover {
 	/*color:blue;*/
 }
 
+a:visited {
+    border-bottom: 0px;
+}
 .select {
 }
 
