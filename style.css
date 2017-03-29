@@ -39,6 +39,10 @@ a .totop:active {
     border-bottom: none;
 }
 
+a .totop:hover {
+    border-bottom: none;
+}
+
 .select {
 }
 
