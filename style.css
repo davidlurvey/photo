@@ -35,11 +35,11 @@ a:hover {
 	/*color:blue;*/
 }
 
-a .totop:active {
+.totop:active {
     border-bottom: none;
 }
 
-a .totop:hover {
+.totop:hover {
     border-bottom: none;
 }
 
