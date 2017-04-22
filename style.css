@@ -126,6 +126,13 @@ img {
     min-height: 500px;
 }
 
+.spacer {
+    width: 150px;
+    display: inline-block;
+    height: 150px;
+}
+
+
 @media (max-width: 800px) {
 .project {
 	height:auto;
