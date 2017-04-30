@@ -192,6 +192,7 @@ img {
 .home {
     max-height: 90vh;
     max-width: 70%;
+    padding-top: 0;
     float: left;
     width: auto;
     height: auto;
