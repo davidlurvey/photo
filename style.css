@@ -7,6 +7,7 @@ body {
 p {
 	margin-top: 0;
 	margin-bottom: 0;
+    max-width: 350px;    
 }
 
 .news_header {
@@ -93,6 +94,18 @@ a:hover {
     box-sizing: border-box;
 }
 
+.text {
+    padding: 25vh 25px 25px 260px;
+    height: 100vh;
+	left:0;
+	/*background-color: red;*/
+/*	white-space: nowrap;*/
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    float: left;
+}
+
 .post {
     margin-bottom: 25px;
     max-width: 350px;
@@ -103,6 +116,7 @@ img {
 	margin-right: 10px;
 	vertical-align: middle;
 }
+
 .vert {
 	height: 100%;
 }
@@ -147,6 +161,13 @@ img {
 	position: static;
 	padding: 10px 25px 120px 25px;
 }
+    
+.text {
+	height:auto;
+	white-space: normal;
+	position: static;
+	padding: 10px 25px 25px 25px;
+}    
     
 img {
 	display: block;
