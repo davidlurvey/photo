@@ -135,6 +135,12 @@ img {
     padding-left: 10%;
 }
 
+.home-horiz {
+    height: 70%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
 .news {
     height: 80vh;   
     min-height: 500px;
@@ -215,6 +221,15 @@ img {
     max-width: 70%;
     padding-top: 0;
     float: left;
+    width: auto;
+    height: auto;
+        
+}
+    
+.home-horiz {
+    max-width: 90%;
+    padding-top: 0;
+    float: right;
     width: auto;
     height: auto;
         
