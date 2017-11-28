@@ -227,6 +227,7 @@ img {
 }
     
 .home-horiz {
+    max-height: 90vh;
     max-width: 90%;
     padding-top: 0;
     float: right;
