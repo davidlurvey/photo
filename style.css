@@ -21,6 +21,7 @@ ul {
 
 a {
 	text-decoration: none;
+    font-style: italic;
 	color: black;
 	/*border-bottom: 0px;*/
 /*	-webkit-transition: .2s ease;
@@ -34,6 +35,17 @@ a:hover {
 	border-bottom: 1px solid;
 	/*letter-spacing: 3px;*/
 	/*color:blue;*/
+}
+
+.navlink {
+    text-decoration: none;
+    font-style: normal;
+	color: black;
+	/*border-bottom: 0px;*/
+/*	-webkit-transition: .2s ease;
+  	-moz-transition: .2s ease;
+  	-o-transition: .2s ease;
+  	transition: .2s ease;*/
 }
 
 .totop:active {
