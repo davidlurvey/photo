@@ -88,6 +88,7 @@ a:hover {
 	padding: 25px 200px 25px 260px;
 	height: 100vh;
 	left:0;
+    margin-right: 100px;
 	/*background-color: red;*/
 	white-space: nowrap;
 	-moz-box-sizing: border-box; 
@@ -170,6 +171,7 @@ img {
 	height:auto;
 	white-space: normal;
 	position: static;
+    margin-right: 0px;
 	padding: 10px 25px 120px 25px;
 }
     
