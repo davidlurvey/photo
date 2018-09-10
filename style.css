@@ -88,8 +88,8 @@ a:hover {
 	padding: 25px 200px 25px 260px;
 	height: 100vh;
 	left:0;
-    margin-right: 100px;
-	/*background-color: red;*/
+    vertical-align: top;
+/*	background-color: red;*/
 	white-space: nowrap;
 	-moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
@@ -140,6 +140,7 @@ img {
 
 .horiz {
 	height: 75%;
+    vertical-align: top;
 }
 
 .home {
@@ -171,7 +172,6 @@ img {
 	height:auto;
 	white-space: normal;
 	position: static;
-    margin-right: 0px;
 	padding: 10px 25px 120px 25px;
 }
     
