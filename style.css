@@ -273,6 +273,27 @@ img {
     min-width: 120px; /* Adjust the width of the dropdown menu */
 }
 
+.mobile-menu {
+        display: block;
+    }
+
+    /* Hide the regular navigation links on smaller screens */
+    .nav > p {
+        display: block;
+    }
+
+    /* Show the dropdown content when the mobile menu button is focused */
+    .mobile-menu:focus + .nav .dropdown-content {
+        display: block;
+    }
+
+    /* Hide the dropdown content when it loses focus */
+    .nav .dropdown-content {
+        display: none;
+    }
+}
+
+
 }
 
 
@@ -308,7 +329,10 @@ img {
 }
 
 
-
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
 
 
 
