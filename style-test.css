@@ -1,0 +1,241 @@
+body {
+    font-size: 17px;
+    line-height: 20px;
+    overflow-x: scroll;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 350px;
+}
+
+.news_header {
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+}
+
+.navlink {
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+}
+
+.totop:active {
+    border-bottom: none;
+}
+
+.totop:hover {
+    border-bottom: none;
+}
+
+.select {
+}
+
+.nav {
+    text-align: left;
+    position: fixed;
+    padding: 25px 40px;
+    width: 250px;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 25px;
+    padding-top: 4px;
+}
+
+.totop {
+    display: none;
+}
+
+.project {
+    padding: 25px 200px 25px 260px;
+    height: 100vh;
+    left: 0;
+    vertical-align: top;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.about {
+    padding: 25px 200px 25px 260px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.text {
+    padding: 25vh 25px 25px 260px;
+    height: 100vh;
+    left: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+
+.post {
+    margin-bottom: 25px;
+    max-width: 350px;
+}
+
+img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.vert,
+.vert2,
+.horiz {
+    height: 75%;
+    vertical-align: top;
+}
+
+.vert,
+.vert2,
+.horiz,
+.home,
+.home-horiz,
+.news {
+    max-height: 90vh;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.home,
+.home-horiz {
+    padding-top: 5%;
+}
+
+.spacer {
+    width: 150px;
+    display: inline-block;
+    height: 150px;
+}
+
+/* Dropdown styling for both desktop and mobile */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 8px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 800px) {
+    .project,
+    .about,
+    .text {
+        height: auto;
+        white-space: normal;
+        position: static;
+        padding: 10px 25px 120px 25px;
+    }
+
+    img {
+        display: block;
+    }
+
+    .nav {
+        position: static;
+        height: auto;
+        padding: 10px;
+    }
+
+    .footer {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        padding-left: 20px;
+    }
+
+    .vert,
+    .vert2,
+    .horiz,
+    .home,
+    .home-horiz,
+    .news {
+        max-height: 90vh;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    .totop {
+        display: inline;
+        text-align: right;
+        right: 0px;
+    }
+
+    .email {
+        display: none;
+    }
+
+    /* Display the dropdown content on mobile */
+    .dropdown-content {
+        display: block;
+        position: static;
+        background-color: white;
+        box-shadow: none;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu:checked + .nav > p {
+        display: none;
+    }
+}
