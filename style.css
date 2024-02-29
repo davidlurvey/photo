@@ -1,13 +1,13 @@
 body {
-	font-size: 17px;
-	line-height: 20px;
-	overflow-x: scroll;
+    font-size: 17px;
+    line-height: 20px;
+    overflow-x: scroll;
 }
 
 p {
-	margin-top: 0;
-	margin-bottom: 0;
-    max-width: 350px;    
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 350px;
 }
 
 .news_header {
@@ -15,37 +15,24 @@ p {
 }
 
 ul {
-	list-style: none;
-	padding-left: 0;
+    list-style: none;
+    padding-left: 0;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
     font-style: italic;
-	color: black;
-	/*border-bottom: 0px;*/
-/*	-webkit-transition: .2s ease;
-  	-moz-transition: .2s ease;
-  	-o-transition: .2s ease;
-  	transition: .2s ease;*/
+    color: black;
 }
 
 a:hover {
-	/*opacity: .2;*/
-	border-bottom: 1px solid;
-	/*letter-spacing: 3px;*/
-	/*color:blue;*/
+    border-bottom: 1px solid;
 }
 
 .navlink {
     text-decoration: none;
     font-style: normal;
-	color: black;
-	/*border-bottom: 0px;*/
-/*	-webkit-transition: .2s ease;
-  	-moz-transition: .2s ease;
-  	-o-transition: .2s ease;
-  	transition: .2s ease;*/
+    color: black;
 }
 
 .totop:active {
@@ -60,61 +47,51 @@ a:hover {
 }
 
 .nav {
-	text-align: left;
-	position: fixed;
-	padding: 25px 40px;
-	width: 250px;
-	height: 100vh;
-	background-color: white;
-	overflow: hidden;
-	-moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-    box-sizing: border-box;
+    text-align: left;
+    position: fixed;
+    padding: 25px 40px;
+    width: 250px;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
 }
 
 .footer {
-	background-color: white;
-	position: absolute;
-	bottom: 0px;
-	padding-bottom: 25px;
-	padding-top: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 25px;
+    padding-top: 4px;
 }
 
 .totop {
-	display: none;
+    display: none;
 }
 
 .project {
-	padding: 25px 200px 25px 260px;
-	height: 100vh;
-	left:0;
+    padding: 25px 200px 25px 260px;
+    height: 100vh;
+    left: 0;
     vertical-align: top;
-/*	background-color: red;*/
-	white-space: nowrap;
-	-moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 .about {
     padding: 25px 200px 25px 260px;
-/*    height: 100vh;*/
-	left:0;
-	/*background-color: red;*/
-/*	white-space: nowrap;*/
-	-moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 .text {
     padding: 25vh 25px 25px 260px;
     height: 100vh;
-	left:0;
-	/*background-color: red;*/
-/*	white-space: nowrap;*/
-	-moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
+    left: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     float: left;
 }
@@ -125,39 +102,33 @@ a:hover {
 }
 
 img {
-	/*display: inline;*/
-	margin-right: 10px;
-	vertical-align: middle;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
-.vert {
-	height: 100%;
-}
-
-.vert2 {
-	height: 100%;
-}
-
+.vert,
+.vert2,
 .horiz {
-	height: 75%;
+    height: 75%;
     vertical-align: top;
 }
 
-.home {
-    height: 80%;
-    padding-top: 5%;
-    padding-left: 10%;
-}
-
-.home-horiz {
-    height: 60%;
-    padding-top: 5%;
-    padding-left: 0%;
-}
-
+.vert,
+.vert2,
+.horiz,
+.home,
+.home-horiz,
 .news {
-    height: 80vh;   
-    min-height: 500px;
+    max-height: 90vh;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.home,
+.home-horiz {
+    padding-top: 5%;
 }
 
 .spacer {
@@ -166,139 +137,7 @@ img {
     height: 150px;
 }
 
-
-@media (max-width: 800px) {
-.project {
-	height:auto;
-	white-space: normal;
-	position: static;
-	padding: 10px 25px 120px 25px;
-}
-    
-.about {
-	height:auto;
-	white-space: normal;
-	position: static;
-	padding: 10px 25px 120px 25px;
-}
-    
-.text {
-	height:auto;
-	white-space: normal;
-	position: static;
-	padding: 10px 25px 25px 25px;
-}    
-    
-img {
-	display: block;
-}
-
-.nav {
-	/*background-color: red;*/
-	position: static;
-	height: auto;
-    padding: 10px;
-}
-
-.footer {
-	width: 100%;
-	position: fixed;
-	left: 0;
-	padding-left: 20px;
-}
-
-.vert {
-	max-height: 90vh;
-	max-width: 100%;
-	width: auto;
-	height: auto;
-    margin-bottom: 25px;
-}
-    
-.vert2 {
-	max-height: 90vh;
-	max-width: 100%;
-	width: auto;
-	height: auto;
-    margin-bottom: 25px;
-}
-
-.horiz {
-	max-height: 90vh;
-	max-width: 100%;
-	width: auto;
-	height: auto;
-    margin-bottom: 25px;
-}
-
-.home {
-    max-height: 90vh;
-    max-width: 70%;
-    padding-top: 0;
-    float: left;
-    width: auto;
-    height: auto;
-        
-}
-    
-.home-horiz {
-    max-height: 90vh;
-    max-width: 90%;
-    padding-top: 0;
-    float: right;
-    width: auto;
-    height: auto;
-        
-}
-    
-.news {
-   	max-height: 90vh;
-	max-width: 100%;
-	width: auto;
-	height: auto;
-}
-
-.totop {
-
-	display: inline;
-	text-align: right;
-	right: 0px;
-}
-
-.email {
-    display: none;    
-}
-    
-.dropdown-content {
-    min-width: 120px; /* Adjust the width of the dropdown menu */
-}
-
-.mobile-menu {
-        display: block;
-    }
-
-    /* Hide the regular navigation links on smaller screens */
-    .nav > p {
-        display: block;
-    }
-
-    /* Show the dropdown content when the mobile menu button is focused */
-    .mobile-menu:focus + .nav .dropdown-content {
-        display: block;
-    }
-
-    /* Hide the dropdown content when it loses focus */
-    .nav .dropdown-content {
-        display: none;
-    }
-}
-
-
-}
-
-
-}
-
+/* Dropdown styling for both desktop and mobile */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -328,11 +167,75 @@ img {
     display: block;
 }
 
+/* Mobile-specific styles */
+@media (max-width: 800px) {
+    .project,
+    .about,
+    .text {
+        height: auto;
+        white-space: normal;
+        position: static;
+        padding: 10px 25px 120px 25px;
+    }
 
-.mobile-menu {
-    display: none;
-    cursor: pointer;
+    img {
+        display: block;
+    }
+
+    .nav {
+        position: static;
+        height: auto;
+        padding: 10px;
+    }
+
+    .footer {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        padding-left: 20px;
+    }
+
+    .vert,
+    .vert2,
+    .horiz,
+    .home,
+    .home-horiz,
+    .news {
+        max-height: 90vh;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    .totop {
+        display: inline;
+        text-align: right;
+        right: 0px;
+    }
+
+    .email {
+        display: none;
+    }
+
+    /* Display the dropdown content on mobile */
+    .dropdown-content {
+        display: block;
+        position: static;
+        background-color: white;
+        box-shadow: none;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu:checked + .nav > p {
+        display: none;
+    }
 }
-
-
-
