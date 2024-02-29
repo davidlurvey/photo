@@ -226,10 +226,6 @@ img {
         z-index: 1;
     }
 
-    .dropdown:hover .dropdown-content {
-        display: none;
-    }
-
     .mobile-menu {
         display: none;
         cursor: pointer;
@@ -238,4 +234,15 @@ img {
     .mobile-menu:checked + .nav > p {
         display: none;
     }
+
+    .dropdown-content a {
+        /* Add or adjust styles for list items within the dropdown */
+        display: block;
+        padding: 10px; /* Adjust padding as needed */
+    }
+
+    .dropdown-content a:last-child {
+        border-bottom: none; /* Remove border from the last list item if desired */
+    }
+
 }
