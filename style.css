@@ -69,7 +69,7 @@ a:hover {
 }
 
 .project {
-    padding: 25px 200px 25px 260px;
+    padding: 25px 250px 25px 260px;
     height: 100vh;
     left: 0;
     vertical-align: top;
@@ -80,7 +80,7 @@ a:hover {
 }
 
 .about {
-    padding: 25px 200px 25px 260px;
+    padding: 25px 250px 25px 260px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
